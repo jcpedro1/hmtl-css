@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --cor0: #073f7ecc;
+    --cor1: #052f6b;
+    --cor2: #041f5a;
+    --cor3: #02104a;
+    --cor4: #000039;
+}
+
+#titulo{
+    font-family: sans-serif;
+    color: var(--cor4);
+    margin-left: 20%;
+}
+
+#subtitulo{
+    font-family: sans-serif;
+    color: var(--cor4);
+    margin-left: 14%;
+}
+
+fieldset{
+    border: 0;
+}
+
+form{
+    margin-left: 17%;
+}
+
+body{
+    background-color: var(--cor0);
+    font-family: sans-serif;
+    font-size: 1em;
+    color: var(--cor3);
+    margin-left: 30%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+input, button{
+    border-radius: 5px;
+}
+
+.campo{
+    margin-bottom: 0.3em;
+}
+
+.campo label{
+    margin-bottom:0.2em;
+    color: var(--cor3);
+    display: block;
+}
+
+fieldset .grupo .campo{
+    float: left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo input[type="password"]{
+    padding: 0.2em;
+    border: 1px solid;
+    box-shadow: 2px 2px 2px var(--cor1);
+    display: block;
+}
+
+.botao{
+    font-size: 1.2em;
+    background: var(--cor3);
+    color: #fff;
+    border: 0;
+    margin-bottom: 1em;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px var(--cor1);
+    text-shadow: 1px 1px 1px var(--cor0);
+    position: absolute;
+    top: 28%;
+    left: 47%;
+    transform: translate(-26%, -26%);
+}
+
+.botao:hover{
+    background: #041f70 ;
+    box-shadow: inset 2px 2px 2px var(--cor1);
+    text-shadow: none;
+}
